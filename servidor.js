@@ -48,7 +48,7 @@ Ruta.delete("/usuario/:id", (req, res) => {
     .then((data)=> res.json(data))
     .catch((error) => res.json({message: error}));
 });
-
+// Estoy editando un poco
 // Trabajando otro Modelo "Deporte"
 
 // Metodo Get
