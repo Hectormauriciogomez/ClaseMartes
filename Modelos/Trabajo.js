@@ -1,8 +1,8 @@
 const mongoose = require('mongoose');
 
-let DeporteSchema = new mongoose.Schema({
+let TrabajoSchema = new mongoose.Schema({
   
-    nombreDeporte: String,
-    descripcionDeporte: String
+    nombreTrabajo: String,
+    descripcionTrabajo: String
 });
-module.exports = mongoose.model('deporte',DeporteSchema,'C_Deporte');
+module.exports = mongoose.model('trabajo',DeporteSchema,'C_Trabajo');
